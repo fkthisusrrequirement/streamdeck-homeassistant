@@ -32,7 +32,7 @@ _states:
     color: '#703a34'
   # ======================== On-States ======================
   on:
-    color: '#55c400'
+    color: '#17eb7e'
   playing:
     color: '#ffd484'
   open:
@@ -46,7 +46,7 @@ _states:
   heat:
     color: '#ffd484'
   active:
-    color: '#55c400'
+    color: '#17eb7e'
   # =========================================================
 
 switch:
