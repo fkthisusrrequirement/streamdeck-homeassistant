@@ -149,23 +149,23 @@ sensor:
         {% endif %}
         {% if numState <= 10 %}
           #0000FF
-        {% elif numState <= 20 %}
-          #0040FF
         {% elif numState <= 30 %}
-          #0080FF
+          #0040FF
         {% elif numState <= 35 %}
-          #00BFFF
+          #0080FF
         {% elif numState <= 40 %}
-          #87CEFA
+          #00BFFF
         {% elif numState <= 45 %}
-          #B0E0E6
+          #87CEFA
         {% elif numState <= 50 %}
+          #B0E0E6
+        {% elif numState <= 55 %}
           #90EE90
         {% elif numState <= 60 %}
           #ADFF2F
-        {% elif numState <= 70 %}
+        {% elif numState <= 65 %}
           #FFFF00
-        {% elif numState <= 80 %}
+        {% elif numState <= 70 %}
           #FFA500        
         {% else %}
           #FF0000
