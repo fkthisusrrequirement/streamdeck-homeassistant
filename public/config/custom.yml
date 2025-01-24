@@ -73,6 +73,8 @@ light:
       icon: mdi:lightbulb-alert
     on:
       color: '#fff533'
+    off:
+      color: '#f7e302'
 
 input_boolean:
   labelTemplates:
