@@ -74,6 +74,8 @@ light:
     on:
       icon: mdi:lightbulb-on
       color: '#fae94d'
+    off:
+      icon: mdi:lightbulb-outline
 
 input_boolean:
   labelTemplates:
