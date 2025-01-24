@@ -147,25 +147,25 @@ sensor:
         {% if attributes.unit_of_measurement == '°F' %}
           {% set numState = (numState - 32) * 5 / 9  %}
         {% endif %}
-        {% if numState <= 05 %}
+        {% if numState <= 04 %}
           #6226bd
-        {% elif numState <= 10 %}
+        {% elif numState <= 8 %}
           #0000FF
-        {% elif numState <= 15 %}
+        {% elif numState <= 12 %}
           #428ffc
-        {% elif numState <= 20 %}
+        {% elif numState <= 16 %}
           #54ccff
-        {% elif numState <= 25 %}
+        {% elif numState <= 20 %}
           #61cfc0
-        {% elif numState <= 30 %}
+        {% elif numState <= 25 %}
           #229c10
-        {% elif numState <= 35 %}
+        {% elif numState <= 30 %}
           #6ea13b
-        {% elif numState <= 40 %}
+        {% elif numState <= 35 %}
           #d6d64d
-        {% elif numState <= 45 %}
+        {% elif numState <= 40 %}
           #ffd000
-        {% elif numState <= 50 %}
+        {% elif numState <= 45 %}
           #ff9d00        
         {% else %}
           #FF0000
