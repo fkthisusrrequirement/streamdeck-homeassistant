@@ -72,9 +72,7 @@ light:
     unavailable:
       icon: mdi:lightbulb-alert
     on:
-      color: '#fff533'
-    off:
-      color: '#f7e302'
+      color: '#f7db02'
 
 input_boolean:
   labelTemplates:
