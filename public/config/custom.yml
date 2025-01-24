@@ -157,20 +157,19 @@ sensor:
           #00BFFF
         {% elif numState <= 0 %}
           #87CEFA
-        {% elif numState <= 5 %}
-          #fff533
         {% elif numState <= 10 %}
-          #fff533
-        {% elif numState <= 15 %}
-          #fff533
+          #6df76d
         {% elif numState <= 20 %}
-          #fff533
-        {% elif numState <= 25 %}
-          #fff533        
+          #6df76d
+        {% elif numState <= 30 %}
+          #6df76d
+        {% elif numState <= 40 %}
+          #6df76d
+        {% elif numState <= 50 %}
+          #6df76d        
         {% else %}
           #6df76d
         {% endif %}
-
     battery:
       feedbackLayout: '$B1'
       feedback: |
