@@ -148,25 +148,25 @@ sensor:
           {% set numState = (numState - 32) * 5 / 9  %}
         {% endif %}
         {% if numState <= 05 %}
-          #0000FF
+          #6226bd
         {% elif numState <= 10 %}
-          #0040FF
+          #0000FF
         {% elif numState <= 15 %}
-          #0080FF
+          #428ffc
         {% elif numState <= 20 %}
-          #00BFFF
+          #54ccff
         {% elif numState <= 25 %}
-          #87CEFA
+          #61cfc0
         {% elif numState <= 30 %}
-          #B0E0E6
+          #229c10
         {% elif numState <= 35 %}
-          #90EE90
+          #6ea13b
         {% elif numState <= 40 %}
-          #ADFF2F
+          #d6d64d
         {% elif numState <= 45 %}
-          #FFFF00
+          #ffd000
         {% elif numState <= 50 %}
-          #FFA500        
+          #ff9d00        
         {% else %}
           #FF0000
         {% endif %}
