@@ -165,7 +165,7 @@ sensor:
           #ADFF2F
         {% elif numState <= 65 %}
           #FFFF00
-        {% elif numState <= 70 %}
+        {% elif numState <= 71 %}
           #FFA500        
         {% else %}
           #FF0000
